@@ -1,0 +1,80 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+li {
+  list-style:none ;
+}
+
+/* header */
+
+.header-container {
+background: #e8e8e8;
+display: flex;
+}
+
+.header-container ul {
+  display: flex;
+    width: 100%;
+    justify-content: flex-end;
+  }
+
+  .header-container ul li{
+   margin: 0 20px;
+   
+    }
+  
+
+
+
+
+
+.container {
+  max-width: 1500px;
+  margin: auto;
+}
+
+.product-section {
+  padding: 40px;
+}
+
+
+.product-section ul li img {
+
+  width: 100%;
+  height: 200px;
+object-fit: cover;
+}
+
+.product-section ul  {
+
+  display: flex;
+justify-content: space-between;
+padding: 0;
+}
+
+.product-section ul li {
+
+ flex: 0 0 32%;
+ border: 1px solid gainsboro;
+ padding: 10px;
+}
+
+.product-section ul li a{
+
+  display: flex;
+  flex-direction: column;
+ }
